@@ -39,15 +39,14 @@ h1 {
 /* Estilos para los párrafos */
 p {
     margin: 0.1rem;
-    font-size: 1.4rem; /* Fuente un poco más grande */
-    font-weight: 2;
-    
+    font-size: 1.5rem; /* Fuente un poco más grande */
+    font-weight: 200;
     word-spacing: 0; /* Elimina espacio adicional entre palabras */
-    line-height: 1.1
+    line-height: 1.5
 }
 /* Estilos para las imágenes en main */
 main img {
-    width: 30vw; /* La imagen ocupa el 40% del ancho de la pantalla */
+    width: 40vw; /* La imagen ocupa el 40% del ancho de la pantalla */
     height: auto; /* Mantiene la proporción de la imagen */
     padding: 0.1px;
     box-shadow: 0 0 0.1px rgb(255, 255, 255);
@@ -94,7 +93,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #131212;
     text-align: center;
     width: 100%; /* Asegura que el body ocupe el 100% del ancho */
     font-size: 2vw; /* Ajusta el tamaño de la fuente con relación al ancho de la pantalla */
@@ -102,10 +101,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'ADLaM Display', sans-serif;
+    font-size: 3vw; /* Ajusta el tamaño con relación al ancho de la pantalla */
+    color: #190303;
+    
 }
 
 aside img:nth-of-type(2) {
-    width: 30%; /* Ajusta al tamaño deseado */
+    width: 40%; /* Ajusta al tamaño deseado */
     height: 10%; /* Mantener la proporción de la imagen */
     border-radius: 5%; /* Mantén los bordes redondeados si lo necesitas */
 }
