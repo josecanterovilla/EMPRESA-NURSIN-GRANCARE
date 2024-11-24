@@ -1,10 +1,11 @@
-
+/* Estilos para el menú de navegación */
 nav {
     background-color: #02779B;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%; /* Asegura que el nav ocupe el 100% del ancho de la pantalla */
 }
 
 nav a {
@@ -14,78 +15,71 @@ nav a {
     padding: 0.5rem;
     font-size: 1.2rem;
     font-weight: 700;
+    text-decoration: none; /* Quitar subrayado de los enlaces */
 }
 
+/* Estilos para el título h1 */
 h1 {
-    
-    font-family: 'ADLaM Display', sans-serif; /* Aplica la fuente */
-    font-size: 2.5rem; /* Tamaño de la fuente */
-    color: #333; /* Color del texto */
+    font-family: 'ADLaM Display', sans-serif;
+    font-size: 5vw; /* Ajusta el tamaño con relación al ancho de la pantalla */
+    color: #333;
     text-align: center;
-    width: 1200px;
-    
-    font-family: 'ADLaM Display', sans-serif; /* Aplica la fuente */
-    font-size: 2.5rem; /* Tamaño de la fuente */
-    color: #333; /* Color del texto */
-    text-align: center; /* Alineación opcional */
-
+    width: 100%; /* Asegura que ocupe el 100% del ancho */
 }
 
+/* Estilos para las imágenes en main */
 main img {
-    width: 300px;
-    height: 10x solid black;
+    width: 50vw; /* La imagen ocupa el 50% del ancho de la pantalla */
+    height: auto; /* Mantener la proporción de la imagen */
     padding: 1px;
     box-shadow: 0 0 0.1px rgb(255, 255, 255);
     float: right;
     margin: 10px;
-    border-radius: 5%;
+    border-radius: 5%; /* Bordes redondeados */
 }
 
+/* Estilos para los párrafos */
 p {
     margin: 0.1rem;
+    font-size: 2.5rem; /* Fuente un poco más grande */
+    font-weight: 700;
+    text-align: justify;
+    word-spacing: 0; /* Elimina espacio adicional entre palabras */
+    line-height: 2.5
 }
 
- main{
-    max-width: 900px;
+/* Estilo para el contenedor principal */
+main {
+    max-width: 100%; /* Asegura que el main ocupe el 100% del ancho */
+    padding: 1rem; /* Un pequeño espacio alrededor */
 }
 
-
-
-aside img{
-    width: 400px;
+/* Estilos para las imágenes en aside */
+aside img {
+    width: 100%; /* La imagen en aside ocupa el 100% del contenedor */
     height: auto;
 }
 
-
-
-footer{
+/* Estilos para el pie de página */
+footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
 }
 
-
-/* class selector*/
-
-.box{
-    margin: 2rem;
-    border: 2px solid rgb(0 0 0/.1);
-    padding: 2rem;
-    background-color: #ddd;
-    color: #000;
-}
-
+/* Estilos generales para el body */
 body {
     background: linear-gradient(to bottom, #02779B, #5BC6E7); /* Degradado de calipso oscuro a claro */
-    font-family: 'Poppins', sans-serif; /* Fuente predeterminada */
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    color: darkblue;
-    font-family: 'ADLaM Display', sans-serif; /* Aplica la fuente */
-    font-size: 1.5rem; /* Tamaño de la fuente */
-    color: #333; /* Color del texto */
+    color: #333;
     text-align: center;
-    width: 950px;
-    
+    width: 100%; /* Asegura que el body ocupe el 100% del ancho */
+    font-size: 2vw; /* Ajusta el tamaño de la fuente con relación al ancho de la pantalla */
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
