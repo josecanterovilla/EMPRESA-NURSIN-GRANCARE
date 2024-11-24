@@ -21,6 +21,10 @@ nav a {
     color: #e6c9c9;
 }
 
+nav a i {
+    margin-right: 8px; /* Espacio entre el ícono y el texto */
+    font-size: 1.8rem; /* Tamaño de los íconos */
+}
 /* Estilos para el título h1 */
 h1 {
     font-family: 'ADLaM Display', sans-serif;
