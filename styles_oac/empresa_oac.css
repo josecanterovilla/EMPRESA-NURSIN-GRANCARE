@@ -13,9 +13,12 @@ nav a {
     color: white;
     display: block;
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     text-decoration: none; /* Quitar subrayado de los enlaces */
+    font-family: 'ADLaM Display', sans-serif;
+    font-size: 3vw; /* Ajusta el tamaño con relación al ancho de la pantalla */
+    color: #e6c9c9;
 }
 
 /* Estilos para el título h1 */
@@ -27,45 +30,52 @@ h1 {
     width: 100%; /* Asegura que ocupe el 100% del ancho */
 }
 
-/* Estilos para las imágenes en main */
-main img {
-    width: 50vw; /* La imagen ocupa el 50% del ancho de la pantalla */
-    height: auto; /* Mantener la proporción de la imagen */
-    padding: 1px;
-    box-shadow: 0 0 0.1px rgb(255, 255, 255);
-    float: right;
-    margin: 10px;
-    border-radius: 5%; /* Bordes redondeados */
-}
+
 
 /* Estilos para los párrafos */
 p {
     margin: 0.1rem;
-    font-size: 2.5rem; /* Fuente un poco más grande */
-    font-weight: 700;
-    text-align: justify;
+    font-size: 1.4rem; /* Fuente un poco más grande */
+    font-weight: 2;
+    
     word-spacing: 0; /* Elimina espacio adicional entre palabras */
-    line-height: 2.5
+    line-height: 1.1
+}
+/* Estilos para las imágenes en main */
+main img {
+    width: 30vw; /* La imagen ocupa el 40% del ancho de la pantalla */
+    height: auto; /* Mantiene la proporción de la imagen */
+    padding: 0.1px;
+    box-shadow: 0 0 0.1px rgb(255, 255, 255);
+    margin: 10px auto; /* Centra la imagen horizontalmente */
+    border-radius: 5%; /* Bordes redondeados */
+    display: block; /* Asegura que ocupe toda la línea */
 }
 
 /* Estilo para el contenedor principal */
 main {
     max-width: 100%; /* Asegura que el main ocupe el 100% del ancho */
-    padding: 1rem; /* Un pequeño espacio alrededor */
+    padding: 0.1rem; /* Un pequeño espacio alrededor */
 }
 
 /* Estilos para las imágenes en aside */
-aside img {
-    width: 100%; /* La imagen en aside ocupa el 100% del contenedor */
+aside img  {
+    width: 80%; /* La imagen en aside ocupa el 100% del contenedor */
     height: auto;
+    border-radius: 5%;
 }
 
 /* Estilos para el pie de página */
 footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
+    margin-top: 0.1rem; /* Reduce el margen superior */
+    border-top: 0.2px solid #000; /* Un borde más delgado */
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-size: 0.5rem; /* Reduce el tamaño de la fuente */
+    min-height: 1vh; /* Reduce la altura mínima del footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    padding: 0.1rem; /* Agrega un poco de relleno para que no quede tan apretado */
 }
 
 /* Estilos generales para el body */
@@ -82,4 +92,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+aside img:nth-of-type(2) {
+    width: 30%; /* Ajusta al tamaño deseado */
+    height: 10%; /* Mantener la proporción de la imagen */
+    border-radius: 5%; /* Mantén los bordes redondeados si lo necesitas */
 }
