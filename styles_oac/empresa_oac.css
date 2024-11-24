@@ -17,73 +17,75 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    
+    font-family: 'ADLaM Display', sans-serif; /* Aplica la fuente */
+    font-size: 2.5rem; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+    text-align: center;
+    width: 1200px;
+    
+    font-family: 'ADLaM Display', sans-serif; /* Aplica la fuente */
+    font-size: 2.5rem; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+    text-align: center; /* Alineación opcional */
 
 }
 
 main img {
-    width: 150px;
+    width: 300px;
     height: 10x solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    padding: 1px;
+    box-shadow: 0 0 0.1px rgb(255, 255, 255);
     float: right;
     margin: 10px;
+    border-radius: 5%;
 }
 
 p {
-    margin: 1rem;
+    margin: 0.1rem;
 }
 
  main{
-    max-width: 840px;
+    max-width: 900px;
 }
 
-aside{
-    position: relative;
-    width: 20em;
-    margin: 3em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-    
-}
 
-aside h2{
-    position: absolute;
-    top: 5px;
-    left: 90px;
-}
 
 aside img{
-    width: 270px;
+    width: 400px;
     height: auto;
 }
 
-p{
-    padding: 0;
-    font-style: italic;
-}
+
 
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+    font-family: 'Poppins', sans-serif; 
 }
-* {
-    margin: o;
-    padding: 0;
-    box-sizing: border-box;
 
-}
 
 /* class selector*/
 
 .box{
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0/.1);
-    padding: 1rem;
+    margin: 2rem;
+    border: 2px solid rgb(0 0 0/.1);
+    padding: 2rem;
     background-color: #ddd;
     color: #000;
+}
+
+body {
+    background: linear-gradient(to bottom, #02779B, #5BC6E7); /* Degradado de calipso oscuro a claro */
+    font-family: 'Poppins', sans-serif; /* Fuente predeterminada */
+    margin: 0;
+    padding: 0;
+    color: darkblue;
+    font-family: 'ADLaM Display', sans-serif; /* Aplica la fuente */
+    font-size: 1.5rem; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+    text-align: center;
+    width: 950px;
+    
 }
